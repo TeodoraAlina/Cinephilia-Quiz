@@ -13,3 +13,41 @@ body {
     color: #a07757;
     background-color: #F0FFFA;
 }
+
+/*---------- Styling boxes */
+.start_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*---------- Quiz Homepage */
+#head-line {
+    text-align: center;
+    font-family: "Lora", sans-serif;
+    font-size: 3.5rem;
+    color: #257889;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text p {
+    color: #a07757;
+    margin: 60px;
+    font-size: 1.3rem;
+}
+
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #F0FFFA;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #257889;
+    cursor: pointer;
+}
