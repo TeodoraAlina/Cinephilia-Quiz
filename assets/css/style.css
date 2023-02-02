@@ -1,2 +1,15 @@
 /*---------- Import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
+
+/*----------- Global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #a07757;
+    background-color: #F0FFFA;
+}
