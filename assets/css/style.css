@@ -28,7 +28,6 @@ body {
 /*---------- Quiz Homepage */
 
 .start_btn {
-    display: none;
 }
 
 #head-line {
@@ -62,6 +61,7 @@ body {
 
 /*----------- Info box */
 .info_box{
+    display: none;
     width: 70%;
     background: #a07757;
     border-radius: 5px;
@@ -130,3 +130,4 @@ body {
     color: #F0FFFA;
     background-color: #257889;
 }
+
