@@ -28,6 +28,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
 }
 
 .info_box.activeInfo {
@@ -307,6 +308,7 @@ footer .next_btn {
     border: 1px solid #257889;
     cursor: pointer;
     transition: all 0.4s ease;
+    font-family: "Poppins", sans-serif;
 }
 
 footer .next_btn:hover {
@@ -372,5 +374,6 @@ footer .next_btn:hover {
     border-radius: 5px;
     border: 1px solid #a07757;
     transition: all 0.3s ease;
+    font-family: "Poppins", sans-serif;
 }
 
