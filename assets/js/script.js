@@ -10,7 +10,7 @@ const quiz_box = document.querySelector(".quiz_box");
  * If Take Quiz button clicked
  * show Info Box
  */
-start_btn.onclick = ()=>{
+start_btn.onclick= ()=>{
     info_box.classList.add("activeInfo");
 }
 
@@ -30,18 +30,33 @@ exit_btn.onclick = ()=>{
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo");
     quiz_box.classList.add("activeQuiz");
-    showQuestion(0);
+    showQuestions(0);
 }
 
 let que_count = 0;
 
+const next_btn = quiz_box.querySelector(".next_btn");
+
+/**
+ * If Next Button Clicked
+ */
+next_btn.onclick =()=>{
+    if(que_count < questions.length - 1){
+        que_count++;
+        showQuestions(que_count);
+    }else {
+        console.log("Questions completed");
+    }
+        
+}
+
 /**
  * Getting questions and options from array
  */
-function showQuestion(index) {
+function showQuestions(index) {
 const que_text = document.querySelector(".que_text");
 const option_list = document.querySelector(".option_list");
-let que_tag = '<span>'+ questions[index].question +'</span>';
+let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
 let option_tag = '<div class="option">' + questions[index].options[0] +'<span></span></div>'
                  + '<div class="option">'+ questions[index].options[1] +'<span></span></div>'
                  + '<div class="option">'+ questions[index].options[2] +'<span></span></div>'

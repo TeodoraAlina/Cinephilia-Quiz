@@ -2,7 +2,7 @@
 let questions = [
     {
         numb: 1,
-        question:"When a killer shark unleashes chaos on a beach community, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
+        question: "When a killer shark unleashes chaos on a beach community, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
         answer: "The Bad Seed",
         options: [
             "Casablanca",
@@ -41,7 +41,7 @@ let questions = [
             "The Shawshank Redemption",
             "The Good, The Bad and The Ugly",
             "The Godfather",
-            "North by Northwest",
+            "North by Northwest"
         ]
     },
     {
