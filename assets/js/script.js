@@ -5,7 +5,18 @@ const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
 
 
-// if Take Quiz button clicked
+/** 
+ * If Take Quiz button clicked
+ * show Info Box
+ */
 start_btn.onclick = ()=>{
     info_box.classList.add("activeInfo");
+}
+
+/**
+ * If exitQuiz button clicked
+ * hide Info Box
+ */
+exit_btn.onclick = ()=>{
+    info_box.classList.remove("activeInfo");
 }
