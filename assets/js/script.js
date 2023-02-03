@@ -25,8 +25,8 @@ exit_btn.onclick = ()=>{
 /**
  * If continueQuiz button clicked
  * hide Info Box
-* show Quiz Box
-*/
+ * show Quiz Box
+ */
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo");
     quiz_box.classList.add("activeQuiz");
