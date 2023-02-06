@@ -74,6 +74,10 @@ for (let i= 0; 1 < option.length; i++){
     option[i].setAttribute("onclick", "optionSelected(this)");
 }
 }
+
+let tickIcon = '<div class="icon tick"><i class="fas fa-check"></i></div>'
+let crossIcon = '<div class="icon cross"><i class="fas fa-times"></i></div>'
+
 /**
  * Getting user selected option
  * getting correct answers from array
@@ -86,13 +90,17 @@ function optionSelected(answer) {
     if(userAns == correctAns){ //if user selected option is equal to array's correct answer
         answer.classList.add("correct"); //add green to correct answer
         console.log('Answer is Correct!');
+        answer.insertAdjacentHTML("beforeend", tickIcon);
     }else {
         answer.classList.add("incorrect"); // add red to incorrect answer
         console.log('Answer is Incorrect!');
-
+        answer.insertAdjacentHTML("beforeend", crossIcon)
+        
+        // If answer is incorrect then select the correct answer
         for (let i = 0; i < allOptions; i++) {
             if(option_list.children[i].textContent == correctAns) {
                 option_list.children[i].setAttribute("class", "option correct");
+                option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
             }
         }
     }
