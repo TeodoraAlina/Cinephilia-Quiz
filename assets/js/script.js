@@ -5,6 +5,7 @@ const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const timeCount = quiz_box.querySelector(".timer .timer_sec")
+const timeOver = quiz_box.querySelector(".timer .time_left_txt")
 
 const option_list = document.querySelector(".option_list");
 
@@ -61,6 +62,7 @@ restart_quiz.onclick = ()=>{
     clearInterval(counter);
     startTimer(timeValue);
     next_btn.style.display = "none";
+    timeOver.textContent = "Time Left";
 }
 
 quit_quiz.onclick = ()=>{
@@ -79,7 +81,9 @@ next_btn.onclick =()=>{
         clearInterval(counter);
         startTimer(timeValue);
         next_btn.style.display = "none";
+        timeOver.textContent = "Time Left";
     }else {
+        clearInterval(counter);
         console.log("Questions completed");
         showResultBox();
     }
@@ -170,6 +174,7 @@ function startTimer(time) {
         if (time < 0) {
             clearInterval(counter);
             timeCount.textContent = "00";
+            timeOver.textContent = "Time Over";
 
             let correctAns = questions[que_count].answer;
             let allOptions = option_list.children.length;
