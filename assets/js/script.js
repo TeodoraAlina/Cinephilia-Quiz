@@ -49,6 +49,20 @@ const result_box = document.querySelector(".result_box");
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 
+restart_quiz.onclick = ()=>{
+    result_box.classList.remove("activeResult");
+    result_box.classList.add("activeQuiz");
+    que_count = 0;
+    que_numb = 1;
+    timeValue = 20;
+    userScore = 0;
+    showQuestions(que_count);
+    queCounter(que_numb);
+    clearInterval(counter);
+    startTimer(timeValue);
+    next_btn.style.display = "none";
+}
+
 quit_quiz.onclick = ()=>{
     window.location.reload();
 }
@@ -156,6 +170,21 @@ function startTimer(time) {
         if (time < 0) {
             clearInterval(counter);
             timeCount.textContent = "00";
+
+            let correctAns = questions[que_count].answer;
+            let allOptions = option_list.children.length;
+
+            for(let i = 0; i < allOptions; i++) {
+                option_list.children[i].classList.add("disabled"); //disable all options if user selected an option
+            }
+            next_btn.style.display = "block";
+
+            for (let i = 0; i < allOptions; i++) {
+                if(option_list.children[i].textContent == correctAns) {
+                    option_list.children[i].setAttribute("class", "option correct");
+                    option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
+                }
+            }
         }
     }
 }
