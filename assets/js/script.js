@@ -42,8 +42,12 @@ let que_count = 0;
 let que_numb = 1;
 let counter;
 let timeValue = 20;
+let userScore = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
+const result_box = document.querySelector(".result_box");
+const restart_quiz = result_box.querySelector(".buttons .restart");
+const quit_quiz = result_box.querySelector(".buttons .quit");
 
 /**
  * If Next Button Clicked
@@ -59,6 +63,7 @@ next_btn.onclick =()=>{
         next_btn.style.display = "none";
     }else {
         console.log("Questions completed");
+        showResultBox();
     }
         
 }
@@ -96,6 +101,8 @@ function optionSelected(answer) {
     let correctAns = questions[que_count].answer;
     let allOptions = option_list.children.length;
     if(userAns == correctAns){ //if user selected option is equal to array's correct answer
+        userScore += 1; 
+        console.log(userScore);
         answer.classList.add("correct"); //add green to correct answer
         console.log('Answer is Correct!');
         answer.insertAdjacentHTML("beforeend", tickIcon);
@@ -119,6 +126,12 @@ function optionSelected(answer) {
     next_btn.style.display = "block";
     
 };
+
+function showResultBox(){
+    info_box.classList.remove("activeInfo");  // hide the info box
+    quiz_box.classList.remove("activeQuiz"); // hide the quiz box
+    result_box.classList.add("activeResult"); // show the result box
+}
 
 function startTimer(time) {
     counter = setInterval(timer, 1000);
