@@ -89,6 +89,12 @@ function optionSelected(answer) {
     }else {
         answer.classList.add("incorrect"); // add red to incorrect answer
         console.log('Answer is Incorrect!');
+
+        for (let i = 0; i < allOptions; i++) {
+            if(option_list.children[i].textContent == correctAns) {
+                option_list.children[i].setAttribute("class", "option correct");
+            }
+        }
     }
 
     for(let i = 0; i < allOptions; i++) {

@@ -3,7 +3,7 @@ let questions = [
     {
         numb: 1,
         question: "When a killer shark unleashes chaos on a beach community, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
-        answer: "The Bad Seed",
+        answer: "Jaws",
         options: [
             "Casablanca",
             "The Terminator",
