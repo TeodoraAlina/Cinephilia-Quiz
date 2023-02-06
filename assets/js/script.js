@@ -131,6 +131,17 @@ function showResultBox(){
     info_box.classList.remove("activeInfo");  // hide the info box
     quiz_box.classList.remove("activeQuiz"); // hide the quiz box
     result_box.classList.add("activeResult"); // show the result box
+    const scoreText = result_box.querySelector(".score_text");
+    if (userScore > 6){
+        let scoreTag = '<span>You are one true cinephile! You got <p>' + userScore + '</p> out of<p>' + questions.length + '</p></span>';
+        scoreText.innerHTML = scoreTag;
+    }else if (userScore > 4){
+        let scoreTag = '<span>Nice! You got <p>' + userScore + '</p> out of<p>' + questions.length + '</p></span>';
+        scoreText.innerHTML = scoreTag;
+    }else{
+    let scoreTag = '<span> So sorry! You only got <p>' + userScore + '</p> out of<p>' + questions.length + '</p></span>';
+    scoreText.innerHTML = scoreTag;
+}
 }
 
 function startTimer(time) {
