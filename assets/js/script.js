@@ -56,6 +56,7 @@ next_btn.onclick =()=>{
         queCounter(que_numb);
         clearInterval(counter);
         startTimer(timeValue);
+        next_btn.style.display = "none";
     }else {
         console.log("Questions completed");
     }
@@ -114,8 +115,8 @@ function optionSelected(answer) {
 
     for(let i = 0; i < allOptions; i++) {
         option_list.children[i].classList.add("disabled"); //disable all options if user selected an option
-
     }
+    next_btn.style.display = "block";
     
 };
 
