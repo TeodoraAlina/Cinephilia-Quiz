@@ -13,7 +13,6 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #a07757;
     background-color: #F0FFFA;
-    max-width: 700px;
 }
 
 /*---------- Styling boxes */
@@ -33,7 +32,8 @@ body {
 
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
-.result_box.activeResult {
+.result_box.activeResult,
+.start_btn.activeStart {
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
@@ -395,3 +395,17 @@ footer .next_btn:hover {
     font-family: "Poppins", sans-serif;
 }
 
+/* ---------- Media queries */
+
+@media screen and (max-width:660px) {
+    :root {
+        font-size: 55%;
+    }
+
+    .start_btn,
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 95%;
+    }
+}

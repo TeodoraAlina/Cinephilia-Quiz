@@ -9,7 +9,6 @@ const timeOver = quiz_box.querySelector(".timer .time_left_txt")
 
 const option_list = document.querySelector(".option_list");
 
-
 /** 
  * If Take Quiz button clicked
  * show Info Box
