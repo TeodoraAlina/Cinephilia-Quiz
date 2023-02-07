@@ -11,10 +11,12 @@ const option_list = document.querySelector(".option_list");
 
 /** 
  * If Take Quiz button clicked
- * show Info Box
+ * Show Info Box
+ * Hide homepage
  */
 start_btn.onclick= ()=>{
     info_box.classList.add("activeInfo");
+    document.getElementById("hero").style.display = "none";
 }
 
 /**
@@ -67,6 +69,7 @@ restart_quiz.onclick = ()=>{
     startTimer(timeValue); // Call startTimer function
     next_btn.style.display = "none"; // Hide next button
     timeOver.textContent = "Time Left"; // Change the text of timeOver
+    document.getElementById("hero").style.display = "block"; // Show homepage
 }
 
 /**
