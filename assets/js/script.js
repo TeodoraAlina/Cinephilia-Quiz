@@ -106,7 +106,7 @@ next_btn.onclick =()=>{
 }
 
 /**
- * Getg questions and options from array
+ * Get questions and options from array
  * Create a new span and div tag for question and option
  * Pass the value using array index
  */
@@ -168,18 +168,25 @@ function optionSelected(answer) {
     
 };
 
+/**
+ * When Quiz has finished
+ * Hide the info box
+ * Hide the quiz box
+ * Show the result box
+ */
 function showResultBox(){
-    info_box.classList.remove("activeInfo");  // Hide the info box
-    quiz_box.classList.remove("activeQuiz"); // Hide the quiz box
-    result_box.classList.add("activeResult"); // Show the result box
+    info_box.classList.remove("activeInfo");
+    quiz_box.classList.remove("activeQuiz"); 
+    result_box.classList.add("activeResult");
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 6){
+    if (userScore > 6){ // If user scored more than 6
+        // Create a new span tag and passing the user score number and total question number
         let scoreTag = '<span>You are one true cinephile! You got <p>' + userScore + '</p> out of<p>' + questions.length + '</p></span>';
-        scoreText.innerHTML = scoreTag;
-    }else if (userScore > 4){
+        scoreText.innerHTML = scoreTag; // Add new span tag inside score_Text
+    }else if (userScore > 4){ // If user scored more than 4
         let scoreTag = '<span>Nice! You got <p>' + userScore + '</p> out of<p>' + questions.length + '</p></span>';
         scoreText.innerHTML = scoreTag;
-    }else{
+    }else{ // If user scored less than 4
     let scoreTag = '<span> So sorry! You only got <p>' + userScore + '</p> out of<p>' + questions.length + '</p></span>';
     scoreText.innerHTML = scoreTag;
 }
@@ -204,9 +211,9 @@ function startTimer(time) {
             next_btn.style.display = "block"; // Show the next button if user selected any option
 
             for (let i = 0; i < allOptions; i++) {
-                if(option_list.children[i].textContent == correctAns) {
-                    option_list.children[i].setAttribute("class", "option correct");
-                    option_list.children[i].insertAdjacentHTML("beforeend", tickIcon);
+                if(option_list.children[i].textContent == correctAns) { // If there is an option which is matched to an array answer
+                    option_list.children[i].setAttribute("class", "option correct"); // Add green color to matched option
+                    option_list.children[i].insertAdjacentHTML("beforeend", tickIcon); // Add tick icon to matched option
                 }
             }
         }
