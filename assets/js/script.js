@@ -25,6 +25,7 @@ start_btn.onclick= ()=>{
  */
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo");
+    document.getElementById("hero").style.display = "block";
 }
 
 /**

@@ -242,7 +242,7 @@ body {
 section .option_list .option:hover{
     background: #F0FFFA;
     color: #257889;
-    border: #257889;
+    border-color: #257889;
 }
 
 .option_list .option:last-child {
