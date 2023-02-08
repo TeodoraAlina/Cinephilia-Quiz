@@ -61,7 +61,7 @@ body {
 }
 
 .hero-text p {
-    color: var(--clr-tertiary);
+    color: #85512a;
     margin: 60px;
     font-size: 1.3rem;
 }
