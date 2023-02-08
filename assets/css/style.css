@@ -66,7 +66,7 @@ body {
     font-size: 1.3rem;
 }
 
-.start_btn button{
+.start_btn button {
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--clr-primary);
@@ -80,7 +80,7 @@ body {
 }
 
 /*----------- Info box */
-.info_box{
+.info_box {
     width: 70%;
     background: var(--clr-tertiary);
     border-radius: 5px;
@@ -91,28 +91,28 @@ body {
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.info_box .info-title{
+.info_box .info-title {
     padding: 35px;
     font-size: 1.4rem;
     font-weight: 600;
     border-bottom: 2px solid #F0FFFA;
 }
 
-.info_box .info-list{
+.info_box .info-list {
     padding: 15px 30px;
 }
 
-.info_box .info-list .info{
+.info_box .info-list .info {
     margin: 5px 0;
     font-size: 1.1rem;
 }
 
-.info_box .info-list .info span{
+.info_box .info-list .info span {
     font-weight: 600;
     color: #7ac1d0;
 }
 
-.info_box .buttons{
+.info_box .buttons {
     height: 60px;
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@ body {
     border-top: 1px solid floralwhite;
 }
 
-.info_box .buttons button{
+.info_box .buttons button {
     margin: 0 5px;
     height: 40px;
     width: 100px;
@@ -155,7 +155,6 @@ body {
     background-color: var(--clr-secondary);
 }
 
-
 /*--------- Quiz box */
 .quiz_box {
     width: 70%;
@@ -176,7 +175,7 @@ body {
     border-bottom: 2px solid var(--clr-primary);
 }
 
-.quiz_box header .title{
+.quiz_box header .title {
     font-size: 1.7rem;
     font-weight: 600;
     color: var(--clr-primary);
@@ -184,7 +183,7 @@ body {
     letter-spacing: 2px;
 }
 
-.quiz_box header .timer{
+.quiz_box header .timer {
     color: var(--clr-primary);
     background: #257889;
     border: 1px solid var(--clr-primary);
@@ -197,13 +196,13 @@ body {
     width: 145px;
 }
 
-.quiz_box header .timer .time_left_txt{
+.quiz_box header .timer .time_left_txt {
     font-weight: 400;
     font-size: 1rem;
     user-select: none;
 }
 
-.quiz_box header .timer .timer_sec{
+.quiz_box header .timer .timer_sec {
     font-size: 1.1rem;
     font-weight: 500;
     height: 30px;
@@ -246,7 +245,7 @@ body {
     transition: all 0.4s ease;
 }
 
-section .option_list .option:hover{
+section .option_list .option:hover {
     background: var(--clr-primary);
     color: var(--clr-secondary);
     border-color: var(--clr-secondary);
@@ -272,20 +271,21 @@ section .option_list .option:hover{
     border-color: #23903c;
     background: #d4edda;
 }
-.option_list .option .icon .cross{
+
+.option_list .option .icon .cross {
     color: #a42834;
     background: #f8d7da;
     border-color: #a42834;
 }
 
 .option_list .option.correct {
-    color : #155724;
+    color: #155724;
     background-color: #d4edda;
     border-color: #c3e6cb;
 }
 
 .option_list .option.incorrect {
-    color : #721c24;
+    color: #721c24;
     background-color: #f8d7da;
     border-color: #f5c6cb;
 }
@@ -344,7 +344,6 @@ footer .next_btn:hover {
 
 /*---------- Result Box */
 
-
 .result_box {
     background: var(--clr-tertiary);
     border-radius: 5px;
@@ -361,33 +360,35 @@ footer .next_btn:hover {
     transform: translate(-50%, -50%) scale(0.9);
 }
 
-.result_box .icon{
+.result_box .icon {
     font-size: 5rem;
     color: floralwhite;
     margin-bottom: 10px;
 }
 
-.result_box .complete_text{
+.result_box .complete_text {
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.result_box .score_text span{
+.result_box .score_text span {
     display: flex;
     margin: 10px 0;
     font-size: 1.3rem;
     font-weight: 500;
 }
-.result_box .score_text span p{
+
+.result_box .score_text span p {
     padding: 0 4px;
     font-weight: 600;
 }
-.result_box .buttons{
+
+.result_box .buttons {
     display: flex;
     margin: 20px 0;
 }
 
-.result_box .buttons button{
+.result_box .buttons button {
     margin: 0 10px;
     height: 45px;
     padding: 0 20px;
