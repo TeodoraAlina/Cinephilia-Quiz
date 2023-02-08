@@ -101,7 +101,6 @@ next_btn.onclick = () => {
     timeOver.textContent = "Time Left"; // Change the timeText to timeOver
   } else {
     clearInterval(counter); // Clear counter
-    console.log("Questions completed");
     showResultBox(); // Call showResultBox function
   }
 };
@@ -159,13 +158,10 @@ function optionSelected(answer) {
   if (userAns == correctAns) {
     //If user selected option is equal to array's correct answer
     userScore += 1;
-    console.log(userScore);
     answer.classList.add("correct"); // Add green to correct answer
-    console.log("Answer is Correct!");
     answer.insertAdjacentHTML("beforeend", tickIcon);
   } else {
     answer.classList.add("incorrect"); // Add red to incorrect answer
-    console.log("Answer is Incorrect!");
     answer.insertAdjacentHTML("beforeend", crossIcon);
 
     // If answer is incorrect then select the correct answer
