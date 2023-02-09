@@ -103,6 +103,7 @@ Three primary colours were used on the website. #F0FFFA was used for the backgro
 ![questions.js Validator](readme-images/questions.js-validator.png)
 
 The reason for the unused variable "questions" message is that the questions.js file holds the game data in a separate file to the rest of the site code.
+Please note that when running this test I set an option so the test wouldn't give a false alert for ECMAScript 6 specific syntax.
 
 ### Performance Testing
 
@@ -114,6 +115,16 @@ I have tested using the Developer Tools Lighthouse for desktop and mobile:
 ### Mobile
 ![DevTools Mobile](readme-images/devtools-mobile.png)
 
+### Browser Compatibility
+
+I have tested my website on the following:
+* Google Chrome Version 108.0.5359.71 (desktop and mobile);
+* Safari (desktop and mobile);
+* Mozila Firefox Version 109.0.1(desktop and mobile).
+
+### OS Compatibility
+
+Tested on iOS 16.3, macOS Monterey 12.6.3 and Android 11. Tested for responsiveness using Chrome DevTools.
 
 
 

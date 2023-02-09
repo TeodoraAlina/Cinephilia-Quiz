@@ -73,9 +73,6 @@ restart_quiz.onclick = () => {
   next_btn.style.display = "none"; // Hide next button
   timeOver.textContent = "Time Left"; // Change the text of timeOver
   document.getElementById("hero").style.display = "block"; // Show homepage
-  console.log(showQuestions);
-  console.log(queCounter);
-  console.log(startTimer);
 };
 
 /**
@@ -141,6 +138,7 @@ function showQuestions(index) {
   for (let i = 0; i < option.length; i++) {
     option[i].setAttribute("onclick", "optionSelected(this)");
   }
+  console.log(showQuestions)
 }
 
 // Create the new div tags for icons
@@ -180,6 +178,7 @@ function optionSelected(answer) {
     option_list.children[i].classList.add("disabled"); // Disable all options if user selected an option
   }
   next_btn.style.display = "block";
+  console.log(optionSelected)
 }
 
 /**
@@ -222,6 +221,7 @@ function showResultBox() {
       "</p></span>";
     scoreText.innerHTML = scoreTag;
   }
+  console.log(showResultBox)
 }
 
 function startTimer(time) {
@@ -251,6 +251,7 @@ function startTimer(time) {
       }
     }
   }
+  console.log(startTimer)
 }
 
 /**
@@ -266,4 +267,5 @@ function queCounter(index) {
     questions.length +
     "</p> Questions</span>";
   bottom_ques_counter.innerHTML = totalQuesCountTag;
+  console.log(queCounter)
 }
