@@ -160,3 +160,13 @@ The project was deployed with the following steps
 * If the page will not load go down to "template" under the "source" and select a template.
 * Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+
+### Forking
+
+Forking the GitHub Repository
+
+By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account. This means we can view or make changes without making the changes affecting the original.
+
+* Log into GitHub and locate the GitHub Repository;
+* At the top of the Repository there is a "Fork" button about the "Settings" button on the menu;
+* You should now have a new copy of the original repository in your own GitHub account.
