@@ -8,3 +8,23 @@ Cinephilia is an online quiz game made for people that have a special kind of lo
 You can view the live website here - [Cinephilia Quiz](https://teodoraalina.github.io/cinephilia-quiz)
 
 You can view the GitHub repository here - [TeodoraAlina/cinephilia-quiz](https://github.com/TeodoraAlina/cinephilia-quiz)
+
+![Responsive Quiz](readme-images/cinephilia-quiz-responsive.png)
+***
+
+## User Experience (UX)
+
+### Strategy
+
+### User Stories
+
+As a user I want to be able to :
+* Easily determine the purpose of the website.
+* Enter the quiz without any problem.
+* Understand each question.
+* See how many questions I have left.
+* See a timer to indicate how much time is left to enter an answer.
+* Get feedback on whether or not the correct answer has been entered.
+* See the correct answer if the option choosen was incorrect.
+* At the end of the game get feedback on score.
+* Navigate easily between the game screens.
