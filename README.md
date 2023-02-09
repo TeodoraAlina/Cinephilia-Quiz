@@ -144,7 +144,19 @@ I have tested my website on the following:
 
 Tested on iOS 16.3, macOS Monterey 12.6.3 and Android 11. Tested for responsiveness using Chrome DevTools.
 
+***
 
+## Deployment
 
+### Delpoying to GitHub Pages
 
+The project was deployed with the following steps
+
+* Log into GitHub;
+* Click the "Settings" button in the menu above the Repository;
+* Scroll down the Settings page to the "GitHub Pages" Section;
+* Under "Source", click the dropdown called "None" and then select "Master Branch";
+* The page will automatically refresh, and a link displaced. It may take some time for the link to show the website.
+* If the page will not load go down to "template" under the "source" and select a template.
+* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
