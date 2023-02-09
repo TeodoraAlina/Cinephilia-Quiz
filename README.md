@@ -91,6 +91,24 @@ Three primary colours were used on the website. #F0FFFA was used for the backgro
 
 ## Testing
 
+| Test Description  | Expected Outcome  | Actual Outcome  |  Re-Test |
+|---|---|---|---|
+| Testing the "Take the Quiz" button  | The button should direct the user to the rules of the quiz when pressed  | Passed  | Passed  |
+| Testing the "Exit Quiz" button  | When pressed, the button should exit the quiz  | Passed  | Passed  |
+| Testing the "Continue" button  | The button should direct the user to the quiz game when pressed  | Passed  | Passed  |
+| Testing the Timer  | The timer should go from 20 second to 0 seconds and to stop when an option is clicked  | Passed  | Passed  |
+| Testing the correct answer  | The colors of the correct answer should be green and have a check icon  | Passed  | Passed  |
+| Testing the incorrect answer  | The colors of the incorrect answer should be red, have a "x" icon and the correct answer should appear as well  | Passed  | Passed  |
+| Testing the questions counter  | The questions counter should count the questions answered from 1 to 10  | Passed  | Passed  |
+| Testing the correct answer and timer  | When the time is over, the correct answer should appear  | Passed  | Passed  |
+| Testing the "Next" button  | When clicked, the next question should appear until finished. When questions are completed, pressing the next button should show the results of the user  | Passed  | Passed |
+| Testing the "Replay Quiz" button  | When pressed, the quiz should reload to the first page  | Failed - The quiz had errors when reloaded, adjusted code | Passed  |
+| Testing the "Quit Quiz" button  | When pressed, the user should be redirected to the home page  | Passed  | Passed  |
+| Hover effects  | The buttons and options should change colours when hovered over  | Passed  | Passed  |
+| Responsiveness in mobile view  | The appearence should be appealing and have readability  | Failed - The quiz overflowed the screen, adjusted width and font size  | Passed  |
+
+
+
 ### Validator Testing
 
 * HTML Validator
@@ -125,6 +143,8 @@ I have tested my website on the following:
 ### OS Compatibility
 
 Tested on iOS 16.3, macOS Monterey 12.6.3 and Android 11. Tested for responsiveness using Chrome DevTools.
+
+
 
 
 
