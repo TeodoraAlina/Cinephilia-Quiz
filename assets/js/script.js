@@ -60,19 +60,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
  * Hide result box
  */
 restart_quiz.onclick = () => {
-  result_box.classList.remove("activeResult");
-  result_box.classList.add("activeQuiz");
-  que_count = 0;
-  que_numb = 1;
-  timeValue = 20;
-  userScore = 0;
-  showQuestions(que_count); // Call showQuestions function
-  queCounter(que_numb); // Pass que_numb value to queCounter
-  clearInterval(counter); // Clear counter
-  startTimer(timeValue); // Call startTimer function
-  next_btn.style.display = "none"; // Hide next button
-  timeOver.textContent = "Time Left"; // Change the text of timeOver
-  document.getElementById("hero").style.display = "block"; // Show homepage
+  window.location.reload();
 };
 
 /**
