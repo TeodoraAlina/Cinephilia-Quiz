@@ -73,6 +73,9 @@ restart_quiz.onclick = () => {
   next_btn.style.display = "none"; // Hide next button
   timeOver.textContent = "Time Left"; // Change the text of timeOver
   document.getElementById("hero").style.display = "block"; // Show homepage
+  console.log(showQuestions);
+  console.log(queCounter);
+  console.log(startTimer);
 };
 
 /**

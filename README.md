@@ -70,6 +70,38 @@ Three primary colours were used on the website. #F0FFFA was used for the backgro
 * A score board at the and of the quiz.
 * Random questions - to make the quiz more interactive.
 
+# Technologies Used
+* HTML5 - Mark-up language using semantic structure.
+* CSS3 - Cascading style sheet used for styling.
+* Gitpod.io - For writing the code, using the command line for commiting and pushing to GitHub.
+* GitHub - Used to host the repository.
+* Git - Used for version control of the project.
+
+* [Google fonts](https://fonts.google.com/) - For styling the typography.
+* [Balsamiq wireframe](https://balsamiq.cloud/) - To build wireframes in the design phase.
+* [Font Awesome](https://fontawesome.com/) - For the icon presented next to the title, the icons used for the correct and incorrect answer and for the favicon.
+* [Beautifier](https://beautifier.io) - To beautify HTML and CSS code.
+* [Prettier](https://prettier.io/) - To beautify Javascript code.
+* [JsHint](https://jshint.com) - Testing validity of JavaScript.
+* [HTML Validator](https://validator.w3.org/#validate_by_input) - Testing validity of HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
+* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+* DEV Tools - Lighthouse.
+***
+
+## Testing
+
+### Validator Testing
+
+* HTML Validator
+![HTML Validator](readme-images/html-validator.png)
+* CSS Validator
+![HTML Validator](readme-images/css-validator.png)
+* Javascript Validator for script.js file
+![script.js Validator](readme-images/script.js-validator.jpg)
+* Javascript Validator for questions.js file
+![questions.js Validator](readme-images/questions.js-validator.png)
+
 
 
 
