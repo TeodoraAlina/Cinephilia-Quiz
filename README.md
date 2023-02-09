@@ -170,3 +170,24 @@ By forking the GitHub Repository, you can make a copy of the original repository
 * Log into GitHub and locate the GitHub Repository;
 * At the top of the Repository there is a "Fork" button about the "Settings" button on the menu;
 * You should now have a new copy of the original repository in your own GitHub account.
+
+### Cloning
+ 
+ Taken from GitHub's documentation on cloning, which can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) :
+ 
+* Once logged into GitHub, navigate to the repository you wish to clone.
+* Next to the green Gitpod button there's a button that reads code, click this.
+* To clone the repository using HTTPS, copy the link whilst HTTPS is selected.
+* Open your local IDE of choice and open the terminal.
+* Navigate to the working directory of where you want the cloned directory to be.
+* Type ```git clone``` in the terminal and then paste the link that you selected in step 3. Press enter.
+* The clone is created in your current working directory (```cwd```).
+
+### Adding and commiting files
+
+I’ve been using Gitpod to write my code and using the terminal within to add, commit and push code from my workspace to GitHub where it is stored remotely as shown in the course content.
+
+* When I have made a couple of minor additions / changes or one large change or addition I add the file in question to the staging area by typing in the terminal git add . the full stop will add all new files.
+* I now want to save my changes to the local repository by typing git commit –m “ ” into the terminal. Between the “ ” I'll write a concise message detailing what this commit has done.
+* When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically pick up these changes and display the most up to date version that has been pushed.
+***
