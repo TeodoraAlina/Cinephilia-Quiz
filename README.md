@@ -28,3 +28,13 @@ As a user I want to be able to :
 * See the correct answer if the option choosen was incorrect.
 * At the end of the game get feedback on score.
 * Navigate easily between the game screens.
+
+## Structure
+
+ The game will consist of :
+  * A homepage which will contain the title of the quiz, a message to intrigue the user and a button which will present the user the rules of the quiz.
+  * An info box with the rules of the game, a button to continue to the quiz game and a button to exit.
+  * A quiz box that will contain the questions and answer, a timer and a next button.
+  * A score box containing the score of the user, a button to replay the quiz and a button to quiz the quiz.
+
+  
