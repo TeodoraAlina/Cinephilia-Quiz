@@ -38,10 +38,10 @@ As a user I want to be able to :
   * A score box containing the score of the user, a button to replay the quiz and a button to quiz the quiz.
 
 ## Skeleton
-* Desktop Wireframes - [Homepage](readme-images/quiz-homepage-desktop.png)/[Rules](readme-images/quiz-rules-desktop.png)/[Quiz](readme-images/quiz-box-desktop.png), [Result](readme-images/quiz-result-desktop.png),
+* Desktop Wireframes - [Homepage](readme-images/quiz-homepage-desktop.png)/[Rules](readme-images/quiz-rules-desktop.png)/[Quiz](readme-images/quiz-box-desktop.png)/[Result](readme-images/quiz-result-desktop.png),
 
 
-* Mobile Wireframes - [Homepage](readme-images/quiz-homepage-mobile.png), [Rules](readme-images/quiz-rules-mobile.png), [Quiz](readme-images/quiz-box-mobilie.png), [Result](readme-images/quiz-result-mobile.png)
+* Mobile Wireframes - [Homepage](readme-images/quiz-homepage-mobile.png)/[Rules](readme-images/quiz-rules-mobile.png)/ [Quiz](readme-images/quiz-box-mobilie.png)/[Result](readme-images/quiz-result-mobile.png)
 
 
 ## Surface
