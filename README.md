@@ -42,3 +42,14 @@ As a user I want to be able to :
 
 
 * Mobile Wireframes - [Homepage](readme-images/quiz-homepage-mobile.png), [Rules](readme-images/quiz-rules-mobile.png), [Quiz](readme-images/quiz-box-mobilie.png), [Result](readme-images/quiz-result-mobile.png)
+
+
+## Surface
+
+### Colour
+Three primary colours were used on the website. #F0FFFA was used for the background for the contrast. #a0785a was used for the background of the boxes, #257889 was used for the fonts. The pallete was taken from [Coolors](https://coolors.co/).
+
+### Typography
+[Google Fonts](https://fonts.google.com/) were used to import the "Lora" and "Poppins" fonts. "Lora" was used for the headers and "Poppins" for the content. The fonts were chosen because they work very well together and for the redability.
+
+

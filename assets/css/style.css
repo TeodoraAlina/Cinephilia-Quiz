@@ -181,6 +181,7 @@ body {
     color: var(--clr-primary);
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 'Lora', sans serif;
 }
 
 .quiz_box header .timer {
