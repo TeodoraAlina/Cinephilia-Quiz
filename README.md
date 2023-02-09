@@ -53,3 +53,23 @@ Three primary colours were used on the website. #F0FFFA was used for the backgro
 [Google Fonts](https://fonts.google.com/) were used to import the "Lora" and "Poppins" fonts. "Lora" was used for the headers and "Poppins" for the content. The fonts were chosen because they work very well together and for the redability.
 
 
+### Call to Action
+* The "Take the Quiz" button sends the user to the Rules of the quiz, from where you can exit the quiz or continue.
+* The "Continue" button opens the quiz game for the user.
+* The "Next" button gets the user the next question until the questions are finished.
+*  The buttons have a nice Malachite green color that goes perfectly with the Light mint color but also with the earthy brown. The colors of the buttons switch when hovered over.
+* The
+* When hovered over them, the options are highlighted with the mint color for the background and the Malachite green for the border, the text color goes from light mint to the Malachite green.
+* When the option selected is correct, the option turns to green and a check icon appears in the right side.
+* When the option selected is incorrect, the option turn to red and a "x" icon appears in the right side.
+* If no option is selected when the time is over, the correct answer will appear highlighted with green colors as well as the check icon.
+* When the quiz is completed, the result appear for the user to see. Three different messages are provided for different scores. Two buttons are provided: the "Replay Quiz" button and the "Quit Quiz" button, that give the user the chance to replay the quiz or quit it.
+
+### Features to Implement in future
+* The user to be able to enter a username.
+* A score board at the and of the quiz.
+* Random questions - to make the quiz more interactive.
+
+
+
+
