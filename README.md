@@ -191,3 +191,22 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 * I now want to save my changes to the local repository by typing git commit –m “ ” into the terminal. Between the “ ” I'll write a concise message detailing what this commit has done.
 * When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically pick up these changes and display the most up to date version that has been pushed.
 ***
+
+## Acknowledgements
+### Credit
+* Tutor support at Code Institute for their help when required.
+* My mentor, Brian Macharia, for helping and guiding me through this project during the mentor sessions.
+* [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+* [W3schools](https://www.w3schools.com) - for various code information.
+* [Balsamiq wireframes](https://balsamiq.cloud/) - To build wireframes in the design phase.
+* [Beautifier](https://beautifier.io) - To beautify my code.
+* [Prettier](https://prettier.io/) - To beautify Javascript code.
+* [JsHint](https://jshint.com) - Testing validity of JavaScript.
+* [Online-Convert](https://image.online-convert.com/convert-to-webp) - To convert my images to WebP.
+* [HTML Validator](https://validator.w3.org) - Testing validity of HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
+* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+
+
+
+
