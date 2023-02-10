@@ -149,6 +149,7 @@ Tested on iOS 16.3, macOS Monterey 12.6.3 and Android 11. Tested for responsiven
 ## Bugs
 * There was a bug with the questions counter not showing in the quiz. Fixed - corrected typo "1" instead of "i".
 * Bug - When time has finished, it didn't stop at 00 but continued counting with negative numbers. Fixed it using clearInterval and changing the textContent.
+* Bug - Options moving when hovered over. Fixed it using border-color instead of border at the hover effect.
 * There was a bug with the quiz box not showing when clicking "Continue" button in the rules box. Fixed it using document.getElementById("").style.display = "block".
 * When pressing Replay button at the end of the game, the quiz game is reloading but there were many bugs met. Fixed it using  window.location.reload();
 
