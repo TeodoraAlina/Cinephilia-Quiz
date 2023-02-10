@@ -1,7 +1,8 @@
 # Cinephilia Quiz
 ## Milestone Project Two
 
-Cinephilia is an online quiz game made for people that have a special kind of love for movies. The user has 10 questions with 4 different options to choose from. The user has only 20 seconds to answer each question. The time is shown in the upper right corner of the quiz. If time has passed then the correct answer will be automatically be selected. If the option selected was wrong, then the correct option will be shown as well. A question counter is shown in the bottom left corner of the quiz so that the user can find out how many questions are left. In the end of the quiz, The score of the user will apear. The user has the option to replay or to quit the quiz.
+Cinephilia is an online quiz game made for people that have a special kind of love for movies. The user has 10 questions with 4 different options to choose from. The user has only 20 seconds to answer each question. The time is shown in the upper right corner of the quiz. If time has passed then the correct answer will automatically be selected. If the option selected was wrong, then the correct option will be shown as well. A question counter is shown in the bottom left corner of the quiz so that the user can find out how many questions are left. In the end of the quiz, the score of the user will appear. The user has the option to replay or to quit the quiz.
+***
 
 ## Demo 
 
@@ -26,16 +27,16 @@ As a user I want to be able to :
 * See a timer to indicate how much time is left to enter an answer.
 * Get feedback on whether or not the correct answer has been entered.
 * See the correct answer if the option choosen was incorrect.
-* At the end of the game get feedback on score.
+* At the end of the game, get feedback on score.
 * Navigate easily between the game screens.
 
 ## Structure
 
  The game will consist of :
-  * A homepage which will contain the title of the quiz, a message to intrigue the user and a button which will present the user the rules of the quiz.
+  * A homepage which will contain the title of the quiz, a message to intrigue the user and a button which will present the user with the rules of the quiz.
   * An info box with the rules of the game, a button to continue to the quiz game and a button to exit.
   * A quiz box that will contain the questions and answer, a timer and a next button.
-  * A score box containing the score of the user, a button to replay the quiz and a button to quiz the quiz.
+  * A score box containing the score of the user, a button to replay the quiz and a button to quit the quiz.
 
 ## Skeleton
 * Desktop Wireframes - [Homepage](readme-images/quiz-homepage-desktop.png)/[Rules](readme-images/quiz-rules-desktop.png)/[Quiz](readme-images/quiz-box-desktop.png)/[Result](readme-images/quiz-result-desktop.png),
@@ -56,19 +57,19 @@ Three primary colours were used on the website. #F0FFFA was used for the backgro
 ### Call to Action
 * The "Take the Quiz" button sends the user to the Rules of the quiz, from where you can exit the quiz or continue.
 * The "Continue" button opens the quiz game for the user.
-* The "Next" button gets the user the next question until the questions are finished.
+* The "Next" button gets the user to the next question until the questions are finished.
 *  The buttons have a nice Malachite green color that goes perfectly with the Light mint color but also with the earthy brown. The colors of the buttons switch when hovered over.
-* The
 * When hovered over them, the options are highlighted with the mint color for the background and the Malachite green for the border, the text color goes from light mint to the Malachite green.
 * When the option selected is correct, the option turns to green and a check icon appears in the right side.
-* When the option selected is incorrect, the option turn to red and a "x" icon appears in the right side.
+* When the option selected is incorrect, the option turns to red and a "x" icon appears in the right side.
 * If no option is selected when the time is over, the correct answer will appear highlighted with green colors as well as the check icon.
-* When the quiz is completed, the result appear for the user to see. Three different messages are provided for different scores. Two buttons are provided: the "Replay Quiz" button and the "Quit Quiz" button, that give the user the chance to replay the quiz or quit it.
+* When the quiz is completed, the result appears for the user to see. Three different messages are provided for different scores. Two buttons are provided: the "Replay Quiz" button and the "Quit Quiz" button, that give the user the chance to replay the quiz or quit it.
 
 ### Features to Implement in future
 * The user to be able to enter a username.
 * A score board at the and of the quiz.
 * Random questions - to make the quiz more interactive.
+***
 
 # Technologies Used
 * HTML5 - Mark-up language using semantic structure.
@@ -143,7 +144,16 @@ I have tested my website on the following:
 ### OS Compatibility
 
 Tested on iOS 16.3, macOS Monterey 12.6.3 and Android 11. Tested for responsiveness using Chrome DevTools.
+***
 
+## Bugs
+* There was a bug with the questions counter not showing in the quiz. Fixed - corrected typo "1" instead of "i".
+* Bug - When time has finished, it didn't stop at 00 but continued counting with negative numbers. Fixed it using clearInterval and changing the textContent.
+* There was a bug with the quiz box not showing when clicking "Continue" button in the rules box. Fixed it using document.getElementById("").style.display = "block".
+* When pressing Replay button at the end of the game, the quiz game is reloading but there were many bugs met. Fixed it using  window.location.reload();
+
+## Known Bugs
+There are no known bugs at the moment.
 ***
 
 ## Deployment
@@ -192,8 +202,8 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 * When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically pick up these changes and display the most up to date version that has been pushed.
 ***
 
-## Acknowledgements
-### Credit
+## Credit
+### Acknowledgements
 * Tutor support at Code Institute for their help when required.
 * My mentor, Brian Macharia, for helping and guiding me through this project during the mentor sessions.
 * [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
