@@ -220,11 +220,11 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 * [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
 
 ### Content
-The questions and answers were selected from this website ![Sporcle](https://www.sporcle.com/games/bananaramarma/cinephile)
+The questions and answers were selected from this website [Sporcle](https://www.sporcle.com/games/bananaramarma/cinephile)
 
 ### Code
-Code on how to set timer to each question came from this website ![Stack overflow](https://stackoverflow.com/questions/55021200/how-to-create-a-timer-per-question-using-javascript)
-Code on how to select option came from this website ![W3cschool](https://w3cschoool.com/javascript-select-option)
+* Code on how to set timer to each question came from this website [Stack overflow](https://stackoverflow.com/questions/55021200/how-to-create-a-timer-per-question-using-javascript)
+* Code on how to select option came from this website [W3cschool](https://w3cschoool.com/javascript-select-option)
 
 
 
